@@ -1,0 +1,186 @@
+body {
+	background: #2272bc;
+}
+
+.container {
+	margin-top: 30px;
+	background: white;
+	border-radius: 15px;
+}
+
+#headerLogo {
+	height: 150px;
+}
+
+.headerBtn {
+	text-align: center;
+	float: left;
+	padding: 0px 10px 5px 10px;
+	color: black;
+}
+
+.headerBtn:hover {
+	color: grey;
+}
+
+#headerBtnRow {
+	padding-left: 10px;
+}
+
+#buttonBorder {
+	height: 10px;
+	border-width: 0px 0px 2px 0px;
+	border-color: black;
+	border-style: solid;
+	width: 350px;
+	margin-left: 33.2%;
+}
+
+#welcomeMessage {
+	font-size: 40px;
+	font-family: 'Oleo Script', cursive;
+	margin-left: 10px;
+}
+
+#christmasAd {
+	height: 500px;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px #636363;
+}
+
+#concertTitle {
+	text-align: center;
+	padding-left: 28%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 50px;
+	font-family: 'Oleo Script', cursive;
+}
+
+#concertRow {
+	margin-left: 15px;
+}
+
+.concertPanel {
+	background: rgba(70, 171, 227, 1);
+	box-shadow: 3px 3px 3px #636363;
+	margin-right: 20px;
+	text-align: center;
+	height: 300px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 2px;
+	padding-top: 25px;
+	margin-bottom: 50px;
+	font-family: 'Ovo', serif;
+}
+
+.concertDate {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.concertChurch {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.concertTime {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.mediaIcon {
+	height: 30px;
+	margin: 5px;
+}
+
+.mediaIcon:hover {
+	background: grey;
+	border-radius: 5px;
+}
+
+#aboutDescription {
+	margin-top: 75px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#bioTabRow {
+	margin-bottom: 10px;
+}
+
+.bioTab {
+	font-size: 24px;
+	border-width: 2px 2px 0px 2px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	box-shadow: 2px 0px 0px grey;
+}
+
+.bioTab:hover {
+	color: blue;
+}
+
+#directorBioSection {
+	border-radius: 15px;
+}
+
+#singerBioSection {
+	height: 500px;
+	border-radius: 15px;
+	padding: 25px;
+	display: none;
+}
+
+.bioPicture {
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.bioName {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.bioTitle {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.bioDescription {
+	margin-top: 10px;
+}
+
+#singerBios {
+	display: none;
+}
+
+.singerPic {
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.singerPic:hover {
+	height: 103px;
+	margin: 2px 5px 2px 2px;
+}
+
+.singerBio {
+	display: none;
+}
+
+footer {
+	margin-top: 100px;
+	height: 150px;
+}
