@@ -21,4 +21,8 @@ module.exports = function(app) {
 	app.get("/donate", function(req, res) {
 		res.render("donate");
 	});
-}
+
+	app.get("/media", function(req, res) {
+		res.render("media");
+	});
+};

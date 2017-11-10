@@ -24,7 +24,7 @@ body {
 }
 
 #headerBtnRow {
-	padding-left: 10px;
+	margin-left: 90px;
 }
 
 #buttonBorder {
@@ -32,7 +32,7 @@ body {
 	border-width: 0px 0px 2px 0px;
 	border-color: black;
 	border-style: solid;
-	width: 350px;
+	width: 365px;
 	margin-left: 33.2%;
 }
 
@@ -112,6 +112,10 @@ body {
 
 #bioTabRow {
 	margin-bottom: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 2px 0px;
+	margin: 0px 150px 0px 130px;
 }
 
 .bioTab {
@@ -121,15 +125,26 @@ body {
 	border-style: solid;
 	border-radius: 5px 5px 0px 0px;
 	text-align: center;
-	box-shadow: 2px 0px 0px grey;
 }
 
 .bioTab:hover {
 	color: blue;
 }
 
+#directorTab {
+	color: white;
+	background: black;
+	box-shadow: 2px 0px 2px grey;
+}
+
+#singerTab {
+	color: black;
+	background: white;
+}
+
 #directorBioSection {
 	border-radius: 15px;
+	margin-left: 50px;
 }
 
 #singerBioSection {
@@ -137,6 +152,7 @@ body {
 	border-radius: 15px;
 	padding: 25px;
 	display: none;
+	margin-left: 130px;
 }
 
 .bioPicture {
