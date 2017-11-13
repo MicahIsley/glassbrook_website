@@ -196,6 +196,18 @@ body {
 	display: none;
 }
 
+iframe {
+	margin: 5px;
+}
+
+.form-control {
+	width: 300px;
+}
+
+#emailSubmit {
+	margin-left: 10px;
+}
+
 footer {
 	margin-top: 100px;
 	height: 150px;

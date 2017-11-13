@@ -17,3 +17,15 @@ $(".singerPic").click(function() {
 	var singerId = ($(this).attr("class").split(' ')[1]);
 	$("." +singerId).show();
 });
+
+$("#emailSubmit").click(function() {
+	console.log("click");
+	var email = $("#emailField").val().trim();
+	var newEmail = {
+		email: email
+	};
+	$.post("api/new/email", newEmail)
+		.done(function(data) {
+			console.log(data);
+		});
+});
