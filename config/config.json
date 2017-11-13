@@ -16,7 +16,7 @@
   "production": {
     "username": "o4f7muit7inlzivh",
     "password": "sbdgi4iwtq19k8hv",
-    "database": "database_production",
+    "database": "glassbrook_heroku",
     "host": "yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
