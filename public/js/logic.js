@@ -26,6 +26,7 @@ $("#emailSubmit").click(function() {
 	};
 	$.post("api/new/email", newEmail)
 		.done(function(data) {
-			console.log(data);
+			$("#finishedSignUp").text("Registration Complete!");
+			$("#emailField").val("");
 		});
 });

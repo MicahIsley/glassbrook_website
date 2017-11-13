@@ -8,6 +8,10 @@ body {
 	border-radius: 15px;
 }
 
+.contentSection {
+	height: 500px;
+}
+
 #headerLogo {
 	height: 150px;
 }
@@ -24,7 +28,8 @@ body {
 }
 
 #headerBtnRow {
-	margin-left: 90px;
+	margin-left: 100px;
+	font-family: 'Ovo', serif;
 }
 
 #buttonBorder {
@@ -65,6 +70,7 @@ body {
 
 .concertPanel {
 	background: rgba(70, 171, 227, 1);
+	background-image: url("../assets/snowflake-background.jpg");
 	box-shadow: 3px 3px 3px #636363;
 	margin-right: 20px;
 	text-align: center;
@@ -108,6 +114,7 @@ body {
 	margin-bottom: 30px;
 	font-size: 20px;
 	text-align: center;
+	font-family: 'Ovo', serif;
 }
 
 #bioTabRow {
@@ -116,6 +123,7 @@ body {
 	border-color: black;
 	border-width: 0px 0px 2px 0px;
 	margin: 0px 150px 0px 130px;
+	font-family: 'Ovo', serif;
 }
 
 .bioTab {
@@ -145,6 +153,7 @@ body {
 #directorBioSection {
 	border-radius: 15px;
 	margin-left: 50px;
+	font-family: 'Ovo', serif;
 }
 
 #singerBioSection {
@@ -153,6 +162,7 @@ body {
 	padding: 25px;
 	display: none;
 	margin-left: 130px;
+	font-family: 'Ovo', serif;
 }
 
 .bioPicture {
@@ -202,10 +212,32 @@ iframe {
 
 .form-control {
 	width: 300px;
+	display: inline;
 }
 
 #emailSubmit {
 	margin-left: 10px;
+}
+
+#contactSection {
+	text-align: center;
+	font-family: 'Ovo', serif;
+	margin-top: 30px;
+	font-size: 20px;
+	padding-left: 100px;
+}
+
+#email {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#mailingList {
+	margin-top: 30px;
+}
+
+#emailSignUp {
+	margin-top: 15px;
 }
 
 footer {
